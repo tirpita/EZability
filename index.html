@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EZability</title>
+    <link rel="stylesheet" type="text/css" href="/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/css/breadcrumb.css">
+	<link rel="stylesheet" type="text/css" href="/css/EZstyles.css">
+	<link rel="stylesheet" type="text/css" href="/css/buttons.css">
+	<link rel="stylesheet" type="text/css" href="/css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="/css/rolloverZoom.css">
+</head>
+<body>
+    <!-- START NAV MENU -->
+    <nav class="nav-menu" id="nav-component">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">About Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li class="dropdown-li right"><a href="" class="dropdown">Dropdown</a>
+                           <div class="dropdown-menu">
+                               <a href="">Sub-Menu 1</a>
+                               <a href="">Sub-Menu 2</a>
+                               <a href="">Sub-Menu 3</a>
+                           </div>
+            </li>
+            <li><a href="#" class="menu-icon">&#9776;</a></li>
+        </ul>
+    </nav>
+    <!-- END NAV MENU -->
+   
+   <br>
+    <!-- START BREADCRUMB -->
+    <ul id="breadcrumbs">
+      <li>
+        <a href="#" class="odd">You are Here:<span class="arrow"></span></a>
+      </li>
+      <li>
+        <a href="#">Home<span class="arrow"></span></a>
+      </li>
+      <li>
+        <a href="#" class="odd">About Us<span class="arrow"></span></a>
+      </li>
+      <li>
+        <a href="#">Support<span class="arrow"></span></a>
+      </li>
+      <li>
+        <a href="#" class="odd">Contact Us<span class="arrow last"></span></a>
+      </li>
+      <li class="active">
+        &nbsp;&nbsp;The currently selected page
+      </li>
+    </ul>
+    <!-- END BREADCRUMB -->
+	
+	<!-- JQUERY CODE/LINKS -->	
+	<script type="text/javascript" src="/js/zoomID.js"></script>
+	<script type="text/javascript" src="/js/popUpHelpOnHover.js"></script>
+	
+    <!-- SCRIPT FOR RESPONSIVE MOBILE MENU -->
+<!--
+    <script>
+        var menu = document.getElementById("nav-component");
+        
+        function responsiveMenu() {
+            if (menu.className === "nav-menu") {
+                menu.className += " responsive";
+            } else {
+                menu.className = "nav-menu";
+            }
+        }
+        menu.addEventListener("click", responsiveMenu);
+    </script>
+-->
+    <!-- END SCRIPT FOR RESPONSIVE MOBILE MENU -->	
+	
+<!-- LEAH -->
+ <div id="EZaccordion"><a href="#menu" class="menu">Accordion Menu</a><br><i class="down"></i>
+        <div id="EZaccordion-hidden">
+            <a href="index.html">Home</a>
+            <a href="nav1.html">Nav1</a>
+            <a href="nav2.html">Nav2</a>
+            <a href="nav3.html">Nav3</a>
+            <a href="nav4.html">Nav4</a>
+        </div>
+    </div>
+    <!-- IMAGE SLIDER --> 
+    <h1>EZslider</h1>   
+<div class=carousel>
+  <ul class=panes>
+    <li><img src="images/slider1.png" alt="" ></li>
+    <li><img src="images/slider2.png" alt=""></li>
+    <li><img src="images/slider3.png" alt=""></li>
+    <li><img src="images/slider1.png" alt=""></li>
+
+    <li>
+      <p>Caption 2</p>
+   <img src="images/slider2.png" alt="">
+    </li>
+    <li>
+      <p>Caption 3</p>
+     <img src="images/slider3.png" alt="">
+    </li>   
+      </ul>
+</div>
+	  
+    <div id="EZcontainer">
+    
+    <!-- BUTTONS -->
+       <div>
+        <h1>EZbuttons</h1>
+    <a href=""><button class="EZbtn-lg">Large</button></a> &nbsp;
+    <a href=""><button>Default</button></a> &nbsp;
+    <a href=""><button class="EZbtn-sm">Small</button></a> &nbsp;
+    <a href=""><button class="EZbtn-xsm">xSmall</button></a> 
+        <p></p><br>
+        <br>
+    <form>
+     <h1>EZinput buttons</h1>
+     <input type="button" value="Input">
+     <input type="submit">
+     <input type="reset">
+    </form>
+        <br>
+    </div>
+    <div id="rollover">	
+			<ul>
+               <li><h1>Rollover Zoom</h1></li>
+            	<li><img src="images/child-ipad.png" class="zoom" alt=""><figcaption>EZcaption</figcaption></li>
+            </ul> 
+</div>
+</div>	
+<!-- LEAH END -->  
+	
+<!-- JQUERY CODE/LINKS -->
+	<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="/js/zoomID.js"></script>
+	<script type="text/javascript" src="/js/popUpHelpOnHover.js"></script>
+	<script type="text/javascript" src="js/navBar.js"></script>
+</body>
+</html>
