@@ -11,6 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="/css/rolloverZoom.css">
 	<link rel="stylesheet" type="text/css" href="/css/zoomID.css">
 	<link rel="stylesheet" type="text/css" href="/css/popUpHelpOnHover.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<script src="https://use.fontawesome.com/b451a1c7e2.js"></script>
+	
 </head>
 <body>
     <!-- START NAV MENU -->
@@ -187,7 +190,7 @@
 <section>
     <div class="col col-4-12" style="background-color:#dedede">
        <h3>h3</h3>
-		<blockquote>BLOCKQUOTE Lorem ipsum dolor sit amet,</blockquote><p>consectetur adipisicing elit. Quidem architecto doloremque non sit.Animi nostrum asperiores accusamus amet consequuntur, velit consequatur repellat facere vitae earum cumque quasi dolore facilis sequi.</p>
+        <blockquote> BLOCKQUOTE Lorem ipsum dolor sit amet,  </blockquote><p>consectetur adipisicing elit. Quidem architecto doloremque non sit.Animi nostrum asperiores accusamus amet consequuntur, velit consequatur repellat facere vitae earum cumque quasi dolore facilis sequi.</p>
     </div>
     <div class="col col-4-12" style="background-color:#dedede">
         <h3>h3</h3>
@@ -248,9 +251,32 @@
                   <textarea placeholder='Thank you for visiting our site'></textarea>
 
                   <input type='submit' value='Submit'>
-            </div>    
+            </div>       
         </fieldset>
     </form>
+</section>
+<section>
+    <div>
+    <p>Fontawesome accessibility use</p>
+    <!--Font Awesome CDN's auto accessibility feature will try to apply a fallback alternative for the icon based on any any alternatives and configuration you set on the icon.-->
+          <input type="search">
+           <!--DECORATIVE purpose-->
+            <button type="submit">
+                <i class="fa fa-arrow-right" title="Submit My Tax Return"></i>
+                </button>
+                <!--SEMANTIC/INTERACTIVE purpose-->
+                <button type="submit">
+                    <i class="fa fa-envelope"></i> Email Us!
+                </button>
+                        <!--EXAMPLE OF Fontawesome JS-->
+                      <button type="submit">
+                      <i class="fa fa-arrow-right" title="Submit My Tax Return"></i>
+                      <span class="sr-only">Submit My Tax Return</span>
+                    </button>
+                    <button type="submit">
+                      <i class="fa fa-envelope" aria-hidden=”true”></i> Email Us!
+                    </button>
+                  </div>
 </section>    
 <hr>      
 <!--  H1 to H3  &  some kind of FORM  END -->	
